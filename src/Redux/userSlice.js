@@ -17,6 +17,7 @@ export const userSlice = createSlice({
         },
 
         UPDATEUSER: (state, action) => {
+            console.log("hello world to git")
             service.putData(action.payload)
         },
 
