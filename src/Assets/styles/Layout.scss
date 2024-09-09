@@ -1,0 +1,22 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border: 2px solid #a5393900;
+    border-radius: 10px;
+  }
+  
+   ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+   ::-webkit-scrollbar-thumb {
+    width: 5px;
+    background: #f2f2f282;
+    background: #f2f2f28f;
+    border-radius: 10px;
+  }
