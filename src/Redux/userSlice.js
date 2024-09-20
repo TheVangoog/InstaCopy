@@ -39,6 +39,8 @@ export const {
 
 export default userSlice.reducer;
 
+let hihihiha
+
 // @todo: Передача даних в редакс готова, зміна стейту релізована
 // Оскільки стейт працює, написати серверну частину, тобто  більшості механізм лайків, коментарів і збереженого.
 // @todo PUT COMMENTS AND SAVED NORMAL 
