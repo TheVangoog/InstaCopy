@@ -6,7 +6,7 @@ import Chat from "../../Assets/Icons/Chat";
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { UPDATEPOST, UPDATEUSER, UPDATESTATE } from "../../Redux/userSlice";
-import Service from '../../Services/Service';
+import Service from '../../Services/Services';
 import CardSkeleton from '../CardSkeleton/CardSkeleton';
 import { current } from "@reduxjs/toolkit";
 

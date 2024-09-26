@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import UserCard from "../../Components/UserCard/UserCard"
-import Service from "../../Services/Service"
+import Service from "../../Services/Services"
 import { useDispatch, useSelector } from "react-redux";
 import { UPDATEPOST, UPDATEUSER, UPDATESTATE } from "../../Redux/userSlice";
 import { useNavigate } from "react-router";

@@ -2,7 +2,7 @@ import PostCard from "../../Components/PostCard/PostCard";
 import { FileUploader } from "react-drag-drop-files";
 import { useEffect, useState } from "react";
 import { encode, decode } from "base-64";
-import Service from "../../Services/Service";
+import Service from "../../Services/Services";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router";
 
