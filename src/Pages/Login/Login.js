@@ -76,6 +76,8 @@ export default function Login() {
           }
          service.addUser(userData)
          setUserNames([...userNames, signedUser.name])
+         a = 1
+         b = 2
       }
       //signup
    }
