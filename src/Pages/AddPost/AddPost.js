@@ -67,6 +67,7 @@ export default function AddPost() {
     service.addPost(newPost)
     navigate(`/`)
     a = 1
+    b = 2
   }
 
 
