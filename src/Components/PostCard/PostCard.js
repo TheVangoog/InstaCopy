@@ -108,7 +108,7 @@ export default function PostCard(props) {
     const newPostData = postData
     const newLikes = newPostData.likes.filter(like => like !== currentUserId)
     newPostData.likes = newLikes
-
+    a = 1
 
     const newUserData = currentUserData
     const newUserLikes = newUserData.likes.filter(like => like !== props.props.id)
